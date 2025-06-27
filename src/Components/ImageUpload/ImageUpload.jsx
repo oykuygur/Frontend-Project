@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import styles from "./ImageUpload.module.css";
 
 const ImageUpload = ({ onUpload }) => {
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImage, setSelectedImage] = useState('');
+  
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];

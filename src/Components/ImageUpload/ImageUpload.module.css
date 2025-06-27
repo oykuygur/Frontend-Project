@@ -1,4 +1,8 @@
 .uploadContainer {
-  margin: 20px 0;
-  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
