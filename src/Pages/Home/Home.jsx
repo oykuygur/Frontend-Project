@@ -12,9 +12,14 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      <Welcome firstName={firstName} lastName={lastName} />
-      <ImageUpload onUpload={setImageUrl} />
-      <ImageView imageUrl={imageUrl} />
+      <div className={styles.welcomeWrapper}>
+        <Welcome firstName={firstName} lastName={lastName} />
+      </div>
+
+      <div className={styles.grid}>
+        <ImageUpload onUpload={setImageUrl} />
+        <ImageView imageUrl={imageUrl} />
+      </div>
     </div>
   );
 };
