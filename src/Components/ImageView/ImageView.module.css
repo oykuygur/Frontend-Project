@@ -1,0 +1,10 @@
+.viewContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.previewImage {
+  width: 300px;
+  margin: 10px;
+  border-radius: 8px;
+}
