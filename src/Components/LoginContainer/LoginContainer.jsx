@@ -52,6 +52,7 @@ const LoginContainer = ({ onLoginSuccess }) => {
             value={formData.firstName}
             onChange={handleChange}
           />
+          <br/>
           <label htmlFor="lastName">Last name:</label>
           <input
             type="text"

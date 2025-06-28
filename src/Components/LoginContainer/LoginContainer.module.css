@@ -3,8 +3,7 @@
   height: 350px;
   margin: 80px auto;
   padding: 30px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
+  box-shadow: 0 4px 12px rgba(#ff0000, #008000, #0000ff, #000000);
   border: 2px solid #333;
   border-radius: 10px;
   font-family: sans-serif;
@@ -12,6 +11,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: rgb(199, 195, 195);
+  opacity: 0.8;
 }
 
 .inputGroup {
