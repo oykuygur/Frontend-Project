@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./ImageUpload.module.css";
-import { FaCamera, FaUpload } from "react-icons/fa";
+import {FaUpload } from "react-icons/fa";
 
 const ImageUpload = ({ onUpload }) => {
   const [selectedImage, setSelectedImage] = useState('');

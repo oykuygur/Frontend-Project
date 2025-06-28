@@ -3,7 +3,7 @@
   height: 350px;
   margin: 80px auto;
   padding: 30px;
-  box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
+  box-shadow: 0 4px 12px rgba(#ff0000, #008000, #0000ff, #000000);
   border: 2px solid #333;
   border-radius: 10px;
   font-family: sans-serif;

@@ -8,7 +8,7 @@ const ImageView = ({ imageUrl }) => {
       <div className={styles.viewContainer}>
         <h3><FaPhotoVideo/>  View Photo</h3>
         {imageUrl ? (
-          <img src={imageUrl} alt="Yüklenen" className={styles.previewImage} />
+          <img src={imageUrl} alt="Loaded" className={styles.previewImage} />
         ) : (
         <p>No images have been viewed yet.</p>
         )}
