@@ -32,7 +32,7 @@ const LoginContainer = ({ onLoginSuccess }) => {
     console.log("Username:", userName);
     console.log("Şifre:", password);
 
-    if (userName === "emiroktay" && password === "admin1") {
+    if (userName === "oykuygur" && password === "admin1") {
       onLoginSuccess(formData);
     } else {
       alert("Username or password is wrong");

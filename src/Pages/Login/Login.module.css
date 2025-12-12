@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-image: url('C:\Users\oykuu\Your-Eye-Frontend\Your-Eye-Frontend\public\assets\6379-black-and-white-desktop-wallpaper-free-desktop-wallpaper-black.jpg');
+  background-image:url("C:\Users\oykuu\Frontend-Project\public\assets\6379-black-and-white-desktop-wallpaper-free-desktop-wallpaper-black.jpg") ;
   margin: 0;
   height: 100vh;
 }
